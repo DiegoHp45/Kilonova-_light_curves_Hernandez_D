@@ -1,0 +1,2 @@
+Run1:
+python makerun.py -p run1.par -r run1
