@@ -4,3 +4,5 @@ Run2:
 python makerun.py -p run2.par -r run2
 Run3:
 python makerun.py -p run3.par -r run3
+Run4:
+python makerun.py -p run4.par -r run4
