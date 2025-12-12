@@ -14,3 +14,6 @@ python makerun.py -p Run_1.par -r Run_1
 
 Run4:
 python makerun.py -p Run_4.par -r Run_4
+
+Run3:
+python makerun.py -p Run_3.par -r Run_3
