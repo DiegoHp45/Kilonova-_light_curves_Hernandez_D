@@ -96,6 +96,7 @@ use_alpha_decay_file = yes
 # the Viola-Seaborg formula
 alpha_decay_file = "/home/ok/Winnet_kilonova/Winnet_Kilonova_/data/alpha_decays.dat"
 
+alpha_decay_ignore_all = no
 
 ###########
 # Fission #
