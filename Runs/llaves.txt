@@ -1,0 +1,41 @@
+Run1:
+python makerun.py -p run1.par -r run1
+Run2:
+python makerun.py -p run2.par -r run2
+Run3:
+python makerun.py -p run3.par -r run3
+Run4:
+python makerun.py -p run4.par -r run4
+Run5:
+python makerun.py -p run5.par -r run5
+
+Run1:
+python makerun.py -p Run_1.par -r Run_1
+
+Run4:
+python makerun.py -p Run_4.par -r Run_4
+
+Run3:
+python makerun.py -p Run_3.par -r Run_3
+
+Run7:
+python makerun.py -p reddirun.par -r Run_7
+
+python makerun.py -p Run_1_igall.par -r Run_1_igall
+
+python makerun.py -p Run_tian.par -r Run_tian
+
+python makerun.py -p Run_zhoureddi.par -r Run_zhoureddi
+python makerun.py -p Run_tianreddi.par -r Run_tianreddi
+
+python makerun.py -p Run_tian_NHMF.par -r Run_tian_NHMF
+python makerun.py -p Run_tian_NHMF.par -r Run_tian_NMMF
+python makerun.py -p Run_tian_NHMF.par -r Run_tian_NMSF
+python makerun.py -p Run_tian_song.par -r Run_tian_SONG
+python makerun.py -p Run_tian_royer.par -r Run_tian_ROYER
+python makerun.py -p Run_zhou_NMHF.par -r Run_zhou_NMHF
+python makerun.py -p Run_zhou_royer.par -r Run_zhou_ROYER
+python makerun.py -p Run_zhou_song.par -r Run_zhou_SONG
+python makerun.py -p Run_tian_song_3.par -r Run_tian_SONG_3
+
+python makerun.py -p Run_Tian_NMHF.par -r Run_Tian_NMHF
