@@ -4,11 +4,11 @@ Run2:
 python makerun.py -p run2.par -r run2
 
 
-python makerun.py -p Run_Tian_NMHF.par -r Run_Tian_NHMF
-python makerun.py -p Run_Tian_SONG.par -r Run_Tian_SONG
+python makerun.py -p Run_Tian_NMHF.par -r Run_Tian_NHMF #
+python makerun.py -p Run_Tian_SONG.par -r Run_Tian_SONG #
 python makerun.py -p Run_Tian_royer.par -r Run_Tian_royer
 
-python makerun.py -p Run_Zhou_NMHF.par -r Run_Zhou_NMHF
-python makerun.py -p Run_Zhou_SONG.par -r Run_Zhou_SONG
+python makerun.py -p Run_Zhou_NMHF.par -r Run_Zhou_NMHF # 
+python makerun.py -p Run_Zhou_SONG.par -r Run_Zhou_SONG #
 python makerun.py -p Run_Zhou_Royer.par -r Run_Zhou_royer
 
