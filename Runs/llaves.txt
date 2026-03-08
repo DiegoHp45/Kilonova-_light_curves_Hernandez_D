@@ -19,5 +19,5 @@ python makerun.py -p Run_Tian_SONG_3.par -r Run_Tian_SONG_3#
 python makerun.py -p Run_Tian_royer_3.par -r Run_Tian_royer_3 
 
 python makerun.py -p Run_Zhou_NMHF_3.par -r Run_Zhou_NMHF_3#
-python makerun.py -p Run_Zhou_SONG_3.par -r Run_Zhou_SONG_3
+python makerun.py -p Run_Zhou_SONG_3.par -r Run_Zhou_SONG_3#
 python makerun.py -p Run_Zhou_royer_3.par -r Run_Zhou_royer_3 
