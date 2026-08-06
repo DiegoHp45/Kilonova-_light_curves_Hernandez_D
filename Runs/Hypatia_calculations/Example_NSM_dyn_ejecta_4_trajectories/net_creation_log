@@ -1,0 +1,18 @@
+               WinNet - Nuclear reaction network
+              ===================================
+                      (Data creation mode)
+ 
+ 
+Option                                   :      Value     Unit
+--------------------------------------------------------------
+Release                                  :    Unknown         
+Git hash                                 :    Unknown         
+Network size                             :       6757         
+Amount reaclib rates                     :      72186         
+Amount alpha-decay format rates          :        863         
+Amount fission rates                     :       6145         
+Total number of fission neutrons         :      27813         
+Amount weak (ffn) rates                  :        212         
+Total reactions after merge              :      78557         
+----------------------------------
+Finished data creation successfully.

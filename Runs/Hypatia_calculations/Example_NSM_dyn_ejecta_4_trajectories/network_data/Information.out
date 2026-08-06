@@ -1,0 +1,43 @@
+Folder containing network and reaction data in unformatted binary format.
+
+
+The following list contains relevant parameters that were used to create the network data:
+==========================================================================================
+
+isotopes_file               = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/winvne_v2.0.dat"
+net_source                  = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/sunet_complete"
+reaclib_file                = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/Reaclib_18_9_20"
+
+use_alpha_decay_file        = yes
+alpha_decay_ignore_all      = yes
+alpha_decay_src_ignore      = "wc07;wc12;wc17"
+alpha_decay_file            = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/alpha_decays.dat"
+alpha_decay_zmax            =   184
+alpha_decay_zmin            =    50
+
+use_beta_decay_file         = no 
+
+use_detailed_balance        = no 
+
+iwformat                    = 2
+iwinterp                    = 0
+weak_rates_file             = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/rateseff.out"
+chem_pot_file               = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/chem_table.dat"
+use_timmes_mue              = yes
+
+use_tabulated_rates         = no 
+
+use_htpf                    = no 
+
+nuflag                      = 0
+
+fissflag                    = 1
+fission_rates_beta_delayed  = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/fissionrates_beta_delayed_mp22"
+fission_rates_n_induced     = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/fissionrates_n_induced"
+fission_rates_spontaneous   = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/fissionrates_spontaneous"
+fission_format_beta_delayed = "3
+fission_format_n_induced    = "1
+fission_format_spontaneous  = "1
+
+use_neutrino_loss_file      = yes
+neutrino_loss_file          = "/hpcfs/home/fisica/df.hernandezp1/WinNet/WinNet/data/nu_loss_data.dat"

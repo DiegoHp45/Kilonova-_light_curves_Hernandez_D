@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/bin/python3 -c ' *)",
+      "Bash(sed -i \"1i import matplotlib\\\\nmatplotlib.use\\('Agg'\\)\" /tmp/_test_traj8.py)",
+      "Bash(venv/bin/python3 /tmp/_test_traj8.py)",
+      "Bash(sed -i \"1i import matplotlib\\\\nmatplotlib.use\\('Agg'\\)\" /tmp/_test_traj9.py)",
+      "Bash(venv/bin/python3 /tmp/_test_traj9.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 /tmp/run_nb.py)",
+      "Bash(rm -f /tmp/run_nb.py)",
+      "Bash(cd \"/media/diefer/0CDCD769DCD74C18/documentos/GODIE_DOCUMENTOS/importante/Kilonova_3.0\" *)",
+      "Bash(awk 'NR>2{print $1, $4}' Data/Trajectories/traj0001.dat)"
+    ],
+    "additionalDirectories": [
+      "/tmp",
+      "/media/diefer/0CDCD769DCD74C18/documentos/GODIE_DOCUMENTOS/importante/Kilonova_3.0/Data/Trajectories"
+    ]
+  }
+}
